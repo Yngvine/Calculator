@@ -7,7 +7,7 @@ import PyQt5.QtWidgets as qtw
 class MainWindow(qtw.QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('Chapato')
+        self.setWindowTitle('Calculator')
         self.setLayout(qtw.QVBoxLayout())
         self.keypad()
         self.temp_num = []
